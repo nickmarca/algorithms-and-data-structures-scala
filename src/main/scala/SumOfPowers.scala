@@ -1,3 +1,4 @@
-object SumOfPowers extends App {
+object Solution extends App {
 
 }
+

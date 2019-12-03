@@ -39,8 +39,6 @@ class SubsetsTest extends FunSuite {
     val p = Subsets.allSubsets(Array(1, 2, 3, 4)).map(_.sorted).sortWith((a, b) => a.mkString < b.mkString)
     val q = subsets2.map(_.sorted).sortWith((a, b) => a.mkString < b.mkString)
 
-    println(p)
-
     assert(p sameElements q)
   }
 }
